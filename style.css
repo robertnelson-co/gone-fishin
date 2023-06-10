@@ -1,0 +1,23 @@
+
+body{
+    display:flex;
+}
+#clouds, #trees {
+    width: 30vw;
+}
+.background{
+    display: flex;
+    width: 100vw;
+}
+#sky{
+    height: 10vw;
+}
+#cityAndForest{
+    height: 15vw;
+}
+.sky {
+    display:flex;
+}
+.smoke {
+    hover:
+}
