@@ -10,3 +10,8 @@
 # smoke effects from craftpix
 # chestnut trees from https://opengameart.org/content/chestnut-trees-yars-tree-rework
 # other trees from https://opengameart.org/content/pixelled-trees
+# shrubs from https://opengameart.org/content/little-bushes
+# water from https://opengameart.org/content/water-texture-pack
+# water flow from https://opengameart.org/content/flowing-water
+
+# river foreground from https://styloo.itch.io/river-parallax-background
