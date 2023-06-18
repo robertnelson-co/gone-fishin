@@ -15,3 +15,4 @@
 # water flow from https://opengameart.org/content/flowing-water
 
 # river foreground from https://styloo.itch.io/river-parallax-background
+# floating assets from https://ghostpixxells.itch.io/pixel-mart
