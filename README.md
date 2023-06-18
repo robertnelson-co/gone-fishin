@@ -16,3 +16,4 @@
 
 # river foreground from https://styloo.itch.io/river-parallax-background
 # floating assets from https://ghostpixxells.itch.io/pixel-mart
+# JavaScript tutorial: https://www.youtube.com/watch?v=7JtLHJbm0kA
