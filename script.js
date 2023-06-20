@@ -97,17 +97,36 @@ window.addEventListener("load", function(){
             this.image = document.getElementById("backgroundImage")
             this.x = 0;
             this.y = 0; 
+            this.width = 2400;
+            this.height = 720;
+            this.speed = 20;
         
         }
         draw(context){
             context.drawImage(this.image, this.x, this.y);
-            this.backgroundRepeat = "repeat"
+            context.drawImage(this.image, this.x + this.width - this.speed, this.y, this.width, this.height);
+        }
+        update(){
+            this.x -= this.speed;
+            if (this.x < 0 - this.width) this.x = 0;
         }
 
 
     }
 
     class Trash {
+        constructor(gameWidth, gameHeight){
+            this.gamewidth = this.gamewidth;
+            this.gameHeight = this.gameheight;
+            this.width = 160;
+            this.height = 119;
+            this.image = document.getElementsByClassName('trash');
+            this.x = 0;
+            this.y = 0;
+        }
+        draw(context){
+            context.drawImage(this.image, this.x, this.y, this.width, this.height);
+        }
 
     
     }
@@ -125,13 +144,16 @@ window.addEventListener("load", function(){
     const input = new inputHandler();
     const player = new Player(canvas.width, canvas.height);
     const background = new Background(canvas.width, canvas.height);
+    const trash1 = new Trash(canvas.width, canvas.height);
 
 
     function animate(){
         ctx.clearRect(0,0,canvas.width, canvas.height);
         background.draw(ctx)
+        //background.update();
         player.draw(ctx)
         player.update(input);
+        trash1.draw(ctx);
         requestAnimationFrame(animate);
     }
     animate();
