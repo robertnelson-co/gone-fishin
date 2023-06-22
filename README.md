@@ -17,3 +17,5 @@
 # river foreground from https://styloo.itch.io/river-parallax-background
 # floating assets from https://ghostpixxells.itch.io/pixel-mart
 # JavaScript tutorial: https://www.youtube.com/watch?v=7JtLHJbm0kA
+# Foto de <a href="https://unsplash.com/@721y?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">chutipon Pattanatitinon</a> en <a href="https://unsplash.com/es/fotos/fG4PYBDmAkI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
