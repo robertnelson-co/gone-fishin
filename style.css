@@ -1,5 +1,6 @@
 body{
-    background: black;
+    background-image: linear-gradient(20deg, rgb(112, 118, 181), rgb(229, 220, 175));
+    height:100vh;
 }
 #canvas1{
     position: absolute;
@@ -8,6 +9,24 @@ body{
     transform: translate(-50%, -50%);
     border: 5px solid white; 
     
+}
+#leftdiv{
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    height: auto;
+    text-align: justify;
+    position: absolute;
+    top: 10%;
+    color:black;
+    background-color: rgb(74, 111, 72);
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+}
+
+#leftdiv h1{
+    font-size: 1.8em;
+    text-align: center;
 }
 #playerImage, #backgroundImage, #trash{
     display: none;

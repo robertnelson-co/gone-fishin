@@ -45,8 +45,7 @@ window.addEventListener('load', function(){
             this.speed = 0;
         }
         draw(context){
-            context.strokeStyle = 'white';
-            context.strokeRect(this.x, this.y, this.width, this.height);
+            
             context.drawImage(this.image, this.x, this.y, this.width, this.height);
         }
         udpate(input, deltaTime, trashies){
@@ -115,8 +114,7 @@ window.addEventListener('load', function(){
             this.markedForDeletion = false; 
         }
         draw(context){
-            context.strokeStyle = 'white';
-            context.strokeRect(this.x, this.y, this.width, this.height);
+            
             context.drawImage(this.image, this.x, this.y);
         }
         update(){
